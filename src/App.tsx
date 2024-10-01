@@ -1,10 +1,9 @@
-import './App.css'
+import './App.css';
 
 function App() {
-
   return (
     <>
-      <h1>Portfólio em React</h1>
+      <h1 className='text-4xl underline' >Portfólio em React</h1>
     </>
   )
 }
