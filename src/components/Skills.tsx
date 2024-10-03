@@ -4,33 +4,101 @@ import { HiCodeBracketSquare } from "react-icons/hi2"
 export function Skills() {
     const educations = [
         {
-            name: "Engenharia de Software | UNICAMP"
+            name: "Especialização em Engenharia de Software | UNICAMP"
+        },
+        {
+            name: "Engenharia de Produção | UNIMEP"
         },
         {
             name: "Bootcamp FullStack Development | TERA"
+        },
+        {
+            name: "Full Stack JavaScript | OneBitCode"
+        },
+        {
+            name: "Python | OneBitCode"
+        },
+        {
+            name: "Python PRO | Let's Code"
+        },
+        {
+            name: "React avançado | Ada Tech"
+        },
+        {
+            name: "Rust avançado | Alura"
         }
     ]
 
     const skills = [
+        // {
+        //     name: "HTML5",
+        //     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg",
+        //     level: 95
+        // },
+        // {
+        //     name: "CSS3",
+        //     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg",
+        //     level: 95
+        // },
         {
             name: "Node.js",
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
-            level: 95
+            level: 85
         },
         {
             name: "React.js",
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-            level: 95
+            level: 80
+        },
+        {
+            name: "JavaScript",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            level: 90
         },
         {
             name: "TypeScript",
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-            level: 95
+            level: 90
+        },
+        {
+            name: "Python",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+            level: 85
+        },
+        {
+            name: "Rust",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
+            level: 85
         },
         {
             name: "PostgreSQL",
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
-            level: 95
+            level: 80
+        },
+        // {
+        //     name: "SQLite",
+        //     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg",
+        //     level: 80
+        // },
+        // {
+        //     name: "MySQL",
+        //     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
+        //     level: 80
+        // },
+        {
+            name: "MongoDB",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg",
+            level: 90
+        },
+        {
+            name: "Docker",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg",
+            level: 80
+        },
+        {
+            name: "AWS",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+            level: 80
         },
     ]
 

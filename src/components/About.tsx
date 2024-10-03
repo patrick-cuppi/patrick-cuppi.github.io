@@ -37,9 +37,10 @@ export function About() {
                                     </td>
                                     <td>
                                         <a 
-                                            href="tel:+55199961067332"
+                                            href="https://wa.me/5519996106732?text=Olá"
                                             className="underline hover:text-blue-800"
-                                            rel="noopener"
+                                            target="_blank"
+                                            rel="noreferrer noopener"
                                         >
                                             +55 (19) 99610-6732
                                         </a>
