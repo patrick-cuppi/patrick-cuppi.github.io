@@ -9,7 +9,7 @@ export function Services() {
         },
         {
             title: "Sistemas",
-            description: "Desenvolvimento de sistemas e APIs REST com Node.js, Python e Solidity.",
+            description: "Desenvolvimento de sistemas e APIs REST com Node.js, Python e Rust.",
             icon: <HiCommandLine className="h-12 w-12" />
         },
         {
