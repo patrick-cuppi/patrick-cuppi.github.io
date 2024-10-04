@@ -24,12 +24,13 @@ export function Hero() {
 
                     <div className="flex items-center gap-2 justify-center md:justify-start">
                         {/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
-                        <a href="#" className="underline font-bold text-white " rel="noopener">Fale Comigo</a>
+                        <a href="#contact" className="underline font-bold text-white " rel="noopener">Fale Comigo</a>
                         <span className="italic text-gray-500">ou</span>
                         {/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
-                        <a href="#" 
+                        <a href="http://lattes.cnpq.br/0597234020737306" 
                             className="button text-gray-600 hover:text-gray-900 flex items-center gap-2" 
-                            rel="noopener">
+                            target="_blank"
+                            rel="noreferrer noopener">
                                 <HiDownload />
                                 Baixe meu CV
                         </a>

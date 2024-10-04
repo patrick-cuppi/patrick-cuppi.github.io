@@ -1,39 +1,44 @@
 import { HiArrowTopRightOnSquare } from "react-icons/hi2"
+import image_url_cod_mt from "../assets/images/smartmockups_m1uuiard.jpg"
+import image_url_cod_mt2 from "../assets/images/smartmockups_m1uvf53r.jpg"
+import image_url_cod_tr from "../assets/images/smartmockups_m1uukeay.jpg"
+import image_url_cod_ar from "../assets/images/smartmockups_m1uujx7m.jpg"
+import image_url_cod_kc from "../assets/images/smartmockups_m1uuj8gh.jpg"
 
 export function Projects() {
     const projects = [
         {
             title: "Projeto 1",
-            description: "",
-            image: "",
+            description: "Site Institucional de empresa do ramo de motores",
+            image: image_url_cod_mt,
             link: "",
             colSpan: "col-span-1"
         },
         {
             title: "Projeto 2",
-            description: "",
-            image: "",
+            description: "Hotel de Reservas",
+            image: image_url_cod_tr,
             link: "",
             colSpan: "col-span-1 md:col-span-2"
         },
         {
             title: "Projeto 3",
-            description: "",
-            image: "",
+            description: "Adega de Bebidas",
+            image: image_url_cod_ar,
             link: "",
             colSpan: "col-span-1"
         },
         {
             title: "Projeto 4",
-            description: "",
-            image: "",
+            description: "Escola de Programação para crianças",
+            image: image_url_cod_kc,
             link: "",
             colSpan: "col-span-1"
         },
         {
             title: "Projeto 5",
-            description: "",
-            image: "",
+            description: "E-commerce de peças eletrônicas e para motores",
+            image: image_url_cod_mt2,
             link: "",
             colSpan: "col-span-1"
         },
